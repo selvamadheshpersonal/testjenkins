@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class JenkinsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Application Started!!");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 
